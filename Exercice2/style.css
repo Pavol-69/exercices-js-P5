@@ -1,4 +1,149 @@
 html {
-    height: 100%;
-    width: 100%;
+  /*Dimensions*/
+  height: 100%;
+  width: 100%;
+
+  /*Texte*/
+  font-family: "roboto";
+
+  /*Flex*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  width: 1200px;
+
+  /*Flex*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+h1,
+h2,
+h3 {
+  /*Dimensions*/
+  margin: 0;
+}
+
+h1 {
+  /*Texte*/
+  font-size: 80px;
+
+  height: 100px;
+}
+
+.img_ctn {
+  /*Dimensions*/
+  height: 150px;
+  width: 150px;
+
+  /*Style*/
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img_ctn img {
+  /*Dimensions*/
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+p {
+  /*Dimension*/
+  text-align: center;
+}
+
+.member_ctn {
+  /*Position*/
+  position: relative;
+
+  /*Dimensions*/
+  height: 450px;
+  width: 1000px;
+
+  /*Style*/
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.member_ctn img {
+  /*Position*/
+  position: relative;
+  top: -30px;
+
+  /*Dimensions*/
+
+  object-fit: cover;
+}
+
+.member {
+  /*Position*/
+  position: absolute;
+
+  /*Dimensions*/
+  padding: 5px;
+
+  /*Flex*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /*Style*/
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+h2 {
+  /*Texte*/
+  font-size: 18px;
+}
+
+h3 {
+  /*Texte*/
+  font-size: 12px;
+  font-style: italic;
+}
+
+#joe {
+  /*Position*/
+  top: 200px;
+  left: 110px;
+}
+
+#brad {
+  /*Position*/
+  top: 170px;
+  left: 270px;
+}
+
+#mike {
+  /*Position*/
+  top: 210px;
+  left: 400px;
+}
+
+#emily {
+  /*Position*/
+  top: 280px;
+  left: 520px;
+}
+
+#david {
+  /*Position*/
+  top: 180px;
+  left: 700px;
+}
+
+#colin {
+  /*Position*/
+  top: 230px;
+  left: 820px;
 }

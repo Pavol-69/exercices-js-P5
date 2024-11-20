@@ -1,0 +1,51 @@
+header {
+  /*Style*/
+  color: #ffcc99;
+}
+
+header h1 {
+  /*Texte*/
+  font-weight: bold;
+  text-align: center;
+}
+
+main {
+  /*Position*/
+  margin: 20px;
+
+  /*Style*/
+  color: #e6f2ff;
+
+  /*Flex*/
+  display: flex;
+}
+
+aside {
+  /*Style*/
+  color: #b3d9ff;
+
+  /*Flex*/
+  flex: 1;
+}
+
+section {
+  /*Flex*/
+  flex: 3;
+}
+
+footer {
+  /*Style*/
+  color: #99cc99;
+}
+
+aside,
+footer {
+  /*Style*/
+  border: solid 1px #ccc;
+}
+
+header,
+footer {
+  /*Style*/
+  box-shadow: 0px 0px 5px #000000;
+}
